@@ -231,6 +231,26 @@
             <span class="tag is-medium is-primary is-light">Biking</span>
             <span class="tag is-medium is-primary is-light">Running</span>
           </div>
+
+          <h1
+            class="title has-text-grey"
+            style="adding-left: 1.5rem;
+    padding-top: 0.75rem;"
+          >
+            Projects
+          </h1>
+          <div class="control">
+            <div class="tags has-addons">
+              <a class="tag tag is-medium is-primary is-light"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://github.com/pmdroid/website"
+                class="tag tag is-medium is-primary is-light"
+                >This website and resume</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -241,5 +261,5 @@
 export default {
   layout: 'resume',
   asyncData: (context: any) => context.profile
-}
+};
 </script>

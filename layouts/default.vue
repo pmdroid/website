@@ -8,9 +8,9 @@
       <div class="content has-text-centered">
         <p>
           <strong>Made</strong> by Pascal Matthiesen with
-          <span class="icon">
-            <i class="fas fa-heart has-text-primary"></i>
-          </span>
+          <a href="https://github.com/pmdroid/website"
+            ><img src="~/assets/icon.svg" width="16px"
+          /></a>
           in Munich
         </p>
       </div>
@@ -19,9 +19,9 @@
 </template>
 
 <script lang="ts">
-import HeroInfo from '~/components/HeroInfo.vue'
+import HeroInfo from '~/components/HeroInfo.vue';
 
 export default {
   components: { HeroInfo }
-}
+};
 </script>
