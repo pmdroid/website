@@ -1,0 +1,61 @@
+$body-family: 'Lato', sans-serif;
+$primary: #f38a8a;
+$grey-lighter: #e6e6e6;
+
+@import '~bulma/bulma';
+@import '~bulma-timeline';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  scroll-behavior: smooth;
+}
+
+.has-top-padding {
+  padding-top: 50px;
+}
+
+.has-bottom-padding {
+  padding-bottom: 50px;
+}
+
+.has-rounded-corner {
+  border-radius: 5px;
+}
+
+.has-centered-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.has-top-border {
+  border-top: 1px dotted;
+}
+
+.has-bottom-border {
+  border-bottom: 1px dotted;
+}
+
+.has-left-border {
+  border-left: 1px dotted;
+}
+
+.has-right-border {
+  border-right: 1px dotted;
+}
+
+.has-border-pink {
+  border-color: $primary;
+}
+
+.has-border-white {
+  border-color: $white;
+}
+
+.icon-with-text {
+  padding-right: 20px;
+}
+
+.icon-with-text .icon {
+  margin-right: 5px;
+}
