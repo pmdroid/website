@@ -27,7 +27,10 @@
     <div
       class="card-content is-overlay"
       style="opacity: 0; overflow-y: scroll;"
-      :style="{ 'background-color': backColor }"
+      :style="{
+        'background-color': backColor,
+        'overflow-y': showBack ? 'scroll' : 'hidden'
+      }"
       :class="{
         animated: animate,
         fadeIn: showBack,
